@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Guaca — finanzas personales para Colombia. Tu plata clara: gastos, deudas y metas. 100% privada, sin internet ni cuentas.">
+<title>Guaca — Finanzas personales</title>
+<link rel="icon" type="image/png" href="icon.png">
+<style>
+  :root { --verde: #087443; --verde-oscuro: #0B3D2E; --tinta: #1a1c1a; }
+  * { box-sizing: border-box; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+         margin: 0; color: var(--tinta); line-height: 1.6; }
+  header { background: var(--verde); color: #fff; text-align: center;
+           padding: 56px 24px 48px; }
+  header img { width: 112px; height: 112px; border-radius: 26px;
+               box-shadow: 0 8px 24px rgba(0,0,0,.25); }
+  h1 { margin: 16px 0 8px; font-size: 2.2em; letter-spacing: .5px; }
+  .tagline { max-width: 560px; margin: 0 auto; font-size: 1.1em; opacity: .95; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 24px 8px; }
+  h2 { color: var(--verde); }
+  ul.pitch { padding-left: 0; list-style: none; }
+  ul.pitch li { margin: 14px 0; padding-left: 34px; position: relative; }
+  ul.pitch li::before { content: "✓"; position: absolute; left: 0; top: 0;
+                        color: var(--verde); font-weight: 700; font-size: 1.2em; }
+  .privado { background: #eef6f1; border-left: 4px solid var(--verde);
+             padding: 14px 18px; border-radius: 8px; margin: 24px 0; }
+  .badge { display: inline-block; background: var(--verde-oscuro); color: #fff;
+           padding: 10px 22px; border-radius: 24px; font-weight: 600;
+           margin-top: 20px; }
+  footer { text-align: center; color: #666; font-size: .9em;
+           padding: 24px; margin-top: 32px; border-top: 1px solid #e4e8e5; }
+  footer a { color: var(--verde); }
+</style>
+</head>
+<body>
+<header>
+  <img src="icon.png" alt="Ícono de Guaca">
+  <h1>Guaca</h1>
+  <p class="tagline">Tu plata clara: gastos, deudas y metas.<br>
+  100% privada, sin internet ni cuentas.</p>
+  <!-- Cuando la app esté publicada, reemplazar por el enlace real de Play:
+       <a class="badge" href="https://play.google.com/store/apps/details?id=com.guaca.guaca">Descárgala en Google Play</a> -->
+  <span class="badge">Muy pronto en Google Play</span>
+</header>
+
+<main>
+  <h2>Una app de finanzas hecha para Colombia</h2>
+  <ul class="pitch">
+    <li><strong>Un solo número honesto</strong>: "Tu dinero" — lo que tienes
+        menos lo que debes — y tu patrimonio mes a mes.</li>
+    <li><strong>Sal de las deudas</strong>: la trampa del pago mínimo, cualquier
+        tasa convertida a Efectiva Anual (un "20% mensual" son 791% al año),
+        alerta de usura y tu plan de salida con fecha de libertad.</li>
+    <li><strong>Los costos reales de tu plata</strong>: compras a cuotas (MSI),
+        cuota de manejo, el 4×1000 y las comisiones, calculados solos.</li>
+    <li><strong>Presupuesto calmado</strong>: semáforo por categoría, cubos
+        50/30/20, fondo de emergencia y metas de ahorro. Sin regaños.</li>
+  </ul>
+
+  <div class="privado">
+    <strong>Privada de verdad.</strong> Sin cuentas, sin nube, sin
+    rastreadores: todo vive en tu teléfono y puedes exportar tu respaldo cuando
+    quieras. Léelo en detalle en la
+    <a href="privacidad.html">política de privacidad</a>.
+  </div>
+</main>
+
+<footer>
+  <p><a href="privacidad.html">Política de privacidad</a> ·
+     Contacto: <a href="mailto:alejand0885@gmail.com">alejand0885@gmail.com</a></p>
+  <p>© 2026 Guaca</p>
+</footer>
+</body>
+</html>
